@@ -4,7 +4,7 @@
 
 **Fifth Project – How to use mouse to drag an object?**
 
-1.  **What is the line of inquiry of my first project?**
+**What is the line of inquiry of my first project?**
 
 From last year I start to learn Unity3D, The only way for me to control the
 object moving is using keyboard. For example, if I want to go front, I set when
@@ -24,7 +24,7 @@ position but like a real move by player’s hand.
 
 That’s why I want to do this project.
 
-1.  **The process of exploration**
+**The process of exploration**
 
 I will do it on Unity. Because for this project, it only has meaning to do it on
 3D world. If it is 2D world, I could just get the mouse position, translate
@@ -73,7 +73,7 @@ understand it clearly, I would try to do more research in the future. Although
 it’s not necessary to write like that in my project, I also like to use it for
 further study.
 
-1.  **The process of doing project.**
+**The process of doing project.**
 
 -   Create a plane and put two small planes on it
 
@@ -87,9 +87,9 @@ further study.
 
 -   Write “drag” code into script and attach it to the cube.
 
--   Notice:
+Notice:
 
-    OnMouseDown() and OnMouseDrag() are very useful functions, because this
+-   OnMouseDown() and OnMouseDrag() are very useful functions, because this
     function only run when the mouse press the object which is attached this
     script on. With the function, you don’t need to write Ray into the script.
     It automatically detects whether you press on the object.
@@ -103,15 +103,14 @@ further study.
 -   When the cube touches on the same color plane, a “Correct” text show on
     screen, if it is wrong color plane, show “wrong”.
 
-1.  **The result**
+**The result**
 
--   There are many ways to realize dragging object. I try 3 versions in my
-    script. Finally, I believe the third version is better. Because it’s easy
-    for people to understand. No matter which way I use, the most important for
-    this project is how to translate between mouse screen position and world
-    position.
+There are many ways to realize dragging object. I try 3 versions in my script.
+Finally, I believe the third version is better. Because it’s easy for people to
+understand. No matter which way I use, the most important for this project is
+how to translate between mouse screen position and world position.
 
-1.  **Citation:**
+**Citation:**
 
 <https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnMouseDrag.html>
 
