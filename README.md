@@ -87,7 +87,7 @@ further study.
 
 -   Write “drag” code into script and attach it to the cube.
 
-    Notice:
+-   Notice:
 
     OnMouseDown() and OnMouseDrag() are very useful functions, because this
     function only run when the mouse press the object which is attached this
@@ -105,13 +105,13 @@ further study.
 
 1.  **The result**
 
-    There are many ways to realize dragging object. I try 3 versions in my
+-   There are many ways to realize dragging object. I try 3 versions in my
     script. Finally, I believe the third version is better. Because it’s easy
     for people to understand. No matter which way I use, the most important for
     this project is how to translate between mouse screen position and world
     position.
 
-2.  **Citation:**
+1.  **Citation:**
 
 <https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnMouseDrag.html>
 
