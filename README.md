@@ -4,7 +4,7 @@
 
 **Fifth Project – How to use mouse to drag an object?**
 
-**What is the line of inquiry of my first project?**
+**What is the line of inquiry of the project?**
 
 From last year I start to learn Unity3D, The only way for me to control the
 object moving is using keyboard. For example, if I want to go front, I set when
@@ -94,7 +94,7 @@ Notice:
     script on. With the function, you don’t need to write Ray into the script.
     It automatically detects whether you press on the object.
 
-    It’s better to calculate offset between the mouse position and cube
+-   It’s better to calculate offset between the mouse position and cube
     position. Every time you drag the cube, the position should add offset. That
     avoids the “flash move”.
 
